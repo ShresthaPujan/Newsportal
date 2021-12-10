@@ -225,6 +225,10 @@ nav .nav__right i {
   list-style: none;
 }
 
+#tabs ul .activethis {
+  background: #70c9ff;
+}
+
 #tabs ul li {
   display: inline;
   border: 1px solid black;
@@ -244,11 +248,42 @@ nav .nav__right i {
   background: #70c9ff;
 }
 
-.test {
-  padding: 20px;
+.sub-news {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.active {
-  background: #70c9ff;
+.tabs-news {
+  max-width: 1248px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-top: 20px;
+}
+
+.tabs-news img {
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
