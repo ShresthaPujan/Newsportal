@@ -1,0 +1,30 @@
+@import 'mixin';
+
+nav{
+   background: #2260BF;
+   .wrapper{
+    @include d-flex(row,space-between,center);
+   }
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+                &:hover{
+                    color:#70c9ff;
+                }
+            }
+        }
+    }
+   .nav__right{
+        font-size: 20px;
+        color: #fff;
+        i{
+            padding:10px
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@mixin d-flex($fd,$js,$ai){
+    max-width:1248px;
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $js;
+    align-items: $ai;
+    margin: 0 auto;
+}
+
+@mixin wrapper(){
+    max-width: 1248px;
+    margin: 0 auto;
+}
