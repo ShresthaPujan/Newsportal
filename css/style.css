@@ -380,4 +380,119 @@ a {
   width: 100px;
   height: 100px;
 }
+
+.newcategory .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.newcategory .wrapper .category {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.newcategory .wrapper .category h1 {
+  padding-top: 20px;
+}
+
+.newcategory .wrapper .category .maincategorynews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.newcategory .wrapper .category .maincategorynews_image img {
+  width: 400px;
+}
+
+.newcategory .wrapper .category .maincategorynews_info {
+  background: #F4F6F8;
+  padding-left: 20px;
+}
+
+.newcategory .wrapper .category .maincategorynews_info h1 {
+  padding: 30px;
+}
+
+.newcategory .wrapper .category .maincategorynews_info p {
+  padding: 0 30px 30px 30px;
+  text-align: left;
+}
+
+.sideads {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: center;
+}
+
+.sideads div:first-of-type {
+  padding-top: 25px;
+}
+
+.sideads div {
+  padding-top: 20px;
+}
+
+.categoryads {
+  padding-top: 20px;
+}
+
+.categorynews_list {
+  max-width: 1248px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.categorynews_list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 10px;
+}
+
+.categorynews_list div .categorynews_title {
+  font-size: 18px;
+}
+
+.categorynews_list div .categorynews_title:hover {
+  color: #70c9ff;
+}
+
+.categorynews_list div img {
+  max-width: 134px;
+  min-width: 134px;
+  height: 82px;
+  padding-right: 10px;
+  -o-object-position: center top;
+     object-position: center top;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
