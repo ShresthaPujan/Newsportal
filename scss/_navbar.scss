@@ -21,10 +21,12 @@ nav{
         }
     }
    .nav__right{
-        font-size: 20px;
+        font-size: 24px;
         color: #fff;
-        i{
-            padding:10px
-        }
+        display: flex;
+        flex-direction: row;
+            div{
+                margin-left: 13px;
+            }
     }
 }

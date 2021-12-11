@@ -41,13 +41,29 @@
                 </ul>
             </div> 
             <div class="nav__right">
-                <i class="fas fa-history"></i>
-                <i class="fas fa-chart-line"></i>
-                <i class="far fa-user"></i>
+               <div> <i class="fas fa-history"></i></div>
+               <div><i class="fas fa-chart-line"></i></div>
+                <div> <i class="far fa-user"></i></div>
+                <div onclick="openNav()" class="side-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             </div>   
         </div>
     </nav>
     <!----------------------- END MENU SECTION ------------------------->
+    <div class="side-bar">
+        <i class="fas fa-times close" onclick="closeNav()"></i>
+        <ul>
+            <li><a href=""><span><img src="image/logos/ok-icon.png" alt=""></span>होमपेज</a></li>
+            <li><a href=""><span><img src="image/logos/cat-icon-news.png" alt=""></span>समाचार</a></li>
+            <li><a href=""><span><img src="image/logos/cat-icon-business.png" alt=""></span>विजनेश</a></li>
+            <li><a href=""><span><img src="image/logos/cat-icon-info.png" alt=""></span>सूचना प्रविधि</a></li>
+            <li><a href=""><span><img src="image/logos/cat-icon-movie.png" alt=""></span>मनोरन्जन</a></li>
+            <li><a href=""><span><img src="image/logos/cat-icon-sports.png" alt=""></span>खेलकुद</a></li>
+        </ul>
+    </div>
     <!----------------------- HOTTOPIC SECTION ------------------------->
     <div class="hottopic">
         <div class="wrapper">
@@ -295,17 +311,6 @@
     </div>
 
     
-    <script>
-        $( function() {
-          $( "#tabs" ).tabs();
-        } );
-
-        $("#navMenus").on('click', 'li', function () {
-            $("#navMenus li.activethis").removeClass("activethis");
-                    // adding classname 'active' to current click li 
-            $(this).addClass("activethis");
-            });
-      
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

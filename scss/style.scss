@@ -8,10 +8,79 @@
 }
 $h1-color : #102c57;
 
+body{
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
 .wrapper{
     max-width: 1248px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+.side-menu{
+    display: inline-block;
+    width: 28px;
+    cursor: pointer;
+    vertical-align: center;
+    margin-top: 2%;
+    .line{
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        margin-bottom: 8px;
+        transition: all .3s ease;
+        }
+    &:hover>span:nth-child(2){
+            width: 30%;
+        }
+    &:hover>span:last-child{
+            width: 70%;
+        }    
+    }
+.side-bar{
+    position: fixed;
+    top:0;
+    right:-300px;
+    width: calc(100% - 85%);
+    height: 100vh;
+    background: #f4f6f8;
+    box-shadow:0 0 8px 5px #888888;
+    font-size: 18px;
+    transition: 0.9s;
+    .fa-times{
+        position: absolute;
+        top: 5px;
+        left: 90%;
+        font-size: 28px;
+    }
+    ul{
+        li{
+            padding: 20px;
+            a{
+                transition: 0.3s;
+            }
+            &:first-child{
+                margin-top: 60px;
+            }
+            &:hover{
+                background: rgba(0,0,0,.04);
+            }
+            span{
+                margin-right: 20px;
+            }
+            img{
+                vertical-align:middle;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
 }
 
 .hottopic{
