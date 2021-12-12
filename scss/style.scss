@@ -300,3 +300,53 @@ a{
         }
     }
 }
+.slider{
+    background: #161A25;
+    color:#fff;
+    padding:20px;
+    button{
+        border:none;
+    }
+    button.owl-next {
+        top: 35%;
+        position: absolute;
+        left:100%;
+        color: #e11b22; 
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        display: block;
+        span{
+            font-size: 40px;
+            line-height: 0.6;
+        }
+    }
+    button.owl-prev {
+        position: absolute;
+        top: 34%;
+        right: 100%;
+        color: #e11b22; 
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        display: block;
+        span{
+            font-size: 40px;
+            line-height: 0.6;
+        }
+    }
+    .slider1{
+        .slider1-items{
+           padding: 10px;
+        }   
+        img{
+           height: 184px;
+            width: 100%;      
+        }           
+    }
+    .feature-info{
+        padding:20px;
+    }
+}

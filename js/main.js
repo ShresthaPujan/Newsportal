@@ -15,4 +15,14 @@ function openNav() {
 function closeNav(){      
     document.querySelector('.side-bar').style.right = "-300px";
 }
-      
+
+
+// OWL CAROUSEL SLIDER
+
+$(document).ready(function(){
+    $(".slider1").owlCarousel({
+        items:4,
+        dots: false,
+        loop:true,
+    });
+});
